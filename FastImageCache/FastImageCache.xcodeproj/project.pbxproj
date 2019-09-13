@@ -54,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		99A4D543232BE358004B97B9 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
 		B2E567681B316D5800906840 /* FastImageCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FastImageCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E5676C1B316D5800906840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2E5676D1B316D5800906840 /* FastImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastImageCache.h; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 		B2E5675E1B316D5800906840 = {
 			isa = PBXGroup;
 			children = (
+				99A4D543232BE358004B97B9 /* Package.swift */,
 				B2E5676A1B316D5800906840 /* FastImageCache */,
 				B2E567771B316D5800906840 /* FastImageCacheTests */,
 				B2E567A81B316DCA00906840 /* FastImageCacheDemo */,
@@ -341,6 +343,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
