@@ -54,6 +54,7 @@
 		991E3428232C19FD00EC5BAA /* FICUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FICUtilities.m; sourceTree = "<group>"; };
 		991E3429232C19FD00EC5BAA /* FICImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FICImageCache.m; sourceTree = "<group>"; };
 		991E342A232C19FD00EC5BAA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		991E343C232C1B1E00EC5BAA /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		99A4D543232BE358004B97B9 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		B2E567681B316D5800906840 /* FastImageCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FastImageCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E567791B316D5800906840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -123,6 +124,7 @@
 		991E341A232C19FD00EC5BAA /* Include */ = {
 			isa = PBXGroup;
 			children = (
+				991E343C232C1B1E00EC5BAA /* module.modulemap */,
 				991E341B232C19FD00EC5BAA /* FICImageTableEntry.h */,
 				991E341C232C19FD00EC5BAA /* FICImageTableChunk.h */,
 				991E341D232C19FD00EC5BAA /* FICImageCache+FICErrorLogging.h */,
