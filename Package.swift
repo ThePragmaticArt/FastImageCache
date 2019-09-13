@@ -8,7 +8,6 @@ let package = Package(
     ],
     products: [
         .library(name: "FastImageCache",
-                 type: .dynamic,
                  targets: ["FastImageCache"])
     ],
     targets: [
