@@ -10,12 +10,6 @@ let package = Package(
         .library(name: "FastImageCache", targets: ["FastImageCache"])
     ],
     targets: [
-        .target(
-            name: "FastImageCache",
-            path: "FastImageCache/FastImageCache/FastImageCache",
-            cSettings: [
-                .headerSearchPath("."),
-            ]
-        )
+        .target(name: "FastImageCache", path: "FastImageCache/FastImageCache/FastImageCache", publicHeadersPath: ".")
     ]
 )
