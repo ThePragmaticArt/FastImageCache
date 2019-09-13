@@ -1,0 +1,5 @@
+module FICImageCache {
+   header "FastImageCache/FastImageCache/include/FICImageCache.h"
+   link "FastImageCache"
+   export *
+}
