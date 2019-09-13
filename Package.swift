@@ -12,7 +12,6 @@ let package = Package(
                  targets: ["FastImageCache"])
     ],
     targets: [
-        .target(name: "FastImageCache"),
-        .testTarget(name: "FastImageCacheTests", dependencies: ["FastImageCache"]),
+        .target(name: "FastImageCache")
     ]
 )
