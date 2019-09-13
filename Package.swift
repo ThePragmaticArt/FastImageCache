@@ -7,7 +7,7 @@ let package = Package(
         .iOS(.v11)
     ],
     products: [
-        .library(name: "FastImageCache", targets: ["FastImageCache"])
+        .library(name: "FastImageCache", type: .dynamic, targets: ["FastImageCache"])
     ],
     targets: [
         .target(name: "FastImageCache", path: "FastImageCache/FastImageCache/FastImageCache", publicHeadersPath: ".")
